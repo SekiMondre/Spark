@@ -117,3 +117,16 @@ public func easeInOutSine(_ t: Double) -> Double {
 //    -(cos(t * .pi) - 1) / 2
     (1 - cos(t * .pi)) / 2 //* 0.5
 }
+
+
+
+//extension Float {
+//
+//    public static func easeInCubic(_ t: Float) -> Float {
+//        t * t * t
+//    }
+//}
+
+//public func easeInCubic(_ t: Float) -> Float {
+//    t * t * t
+//}
